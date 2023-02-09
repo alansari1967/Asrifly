@@ -19,7 +19,7 @@ namespace Asrifly
             InitializeComponent();
             pageManeger = new PageManeger(this);
             //Load Home Page
-            pageManeger.LoadPage(Asrfly.Gui.GuiHome.HomeUserControl1.Instance());
+            //pageManeger.LoadPage(Asrfly.Gui.GuiHome.HomeUserControl1.Instance());
 
         }
 
@@ -29,5 +29,11 @@ namespace Asrifly
             pageManeger.LoadPage(Asrfly.Gui.GuiHome.HomeUserControl1.Instance());
         }
         #endregion
+
+        private void buttonCatigories_Click(object sender, EventArgs e)
+        {
+            pageManeger.LoadPage(Asrfly.Gui.GuiCategories.CategoriesUserControl.Instance1());
+
+        }
     }
 }

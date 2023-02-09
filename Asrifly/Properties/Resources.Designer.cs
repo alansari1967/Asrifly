@@ -61,6 +61,24 @@ namespace Asrfly.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to لاتوجد بيانات.
+        /// </summary>
+        internal static string EmptyMessageCaption {
+            get {
+                return ResourceManager.GetString("EmptyMessageCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to بيدو ان شبكة عرض البيانات فارغة , لايمكن تنفيذ هذا الاجراء.
+        /// </summary>
+        internal static string EmptyMessageText {
+            get {
+                return ResourceManager.GetString("EmptyMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap icons8_about_32px_1 {
@@ -186,6 +204,26 @@ namespace Asrfly.Properties {
         internal static System.Drawing.Bitmap icons8_receive_cash_32px {
             get {
                 object obj = ResourceManager.GetObject("icons8_receive_cash_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_save_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_save_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_save_close_32px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_save_close_32px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
